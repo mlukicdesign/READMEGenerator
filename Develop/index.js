@@ -13,13 +13,18 @@ const promptUser = () => {
 },
 {
     type: 'input',
+    name: 'projectLink',
+    message: 'Provide the link to your deployed application',
+},
+{
+    type: 'input',
     name: 'description',
     message: 'Provide a short description of your poject?',
 },
 {
     type: 'input',
     name: 'installation',
-    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. Use full stops to add a return and number to your list.'
+    message: 'What are the steps required to install your project?'
 },
 {
     type: 'input',
@@ -33,7 +38,7 @@ const promptUser = () => {
 },
 {
     type: 'input',
-    name: 'test instruction',
+    name: 'testing',
     message: 'Provide instructions on how to run tests on your application',
 },
 {
@@ -45,40 +50,79 @@ const promptUser = () => {
         {name: "Apache License", value: "[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"},
         {name: "Creative Commons Attribution Internal License", value: "[![Creative Commons License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)"},
     ],
-}
+},
+{
+    type: 'input',
+    name: 'email',
+    message: 'Please provide your email address',
+},
+{
+    type: 'input',
+    name: 'github',
+    message: 'Please provide a link to your Github Profile',
+},
 ]);
 };
 
 // TODO: Create a function to write README file
-const writeToFile = ({title, description, installation, usage, credits, license}) => 
- `# ${title}
+const writeToFile = ({title, description, license, installation, usage, credits, testing, contact, github, projectLink}) => 
+ `
+ # ${title}
 
  ## Table of Contents
-- [Section 1](#section-1)
-- [Section 2](#section-2)
-- [Section 3](#section-3)
-- [Section 4](#section-4)
-- [Section 5](#section-5)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Test Instructions](#testing)
+- [Contact](#contact)
 
  
  ## Project Link
-
- ## Description 1 
+---
+${projectLink}
+<br>
+<br>
+ ## Description 
+ ---
  ${description}
-
- ## Installation 2
- ${description}
-
- ## Usage 3
- ${description}
- 
- ## License
+ ### Application License:
  ${license}
+
+ <br>
+ <br>
+ ## Installation
+ ---
+ ${installation}
+ <br>
+ <br>
+ ## Usage
+ ---
+ ${usage}
+ <br>   
+ <br>
+ ## Credits
+ ---
+ ${credits}
+ <br>
+ <br>
+ ## Testing
+ ---
+ ${testing}
+ <br>
+ <br>
+ ## Contact
+ ---
+ Please feel free to reach out with any questions regarding this project via the details below:
+ <br>
+ ${contact} <br>
+ ${github} 
 `
 
 
-// TODO: Create a function to initialize app
-// Bonus using writeFileSync as a promise
+
+
+// Use writeFileSync as a promise
 const init = () => {
     promptUser()
       // Use writeFile method imported from fs.promises to use promises instead of
