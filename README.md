@@ -11,11 +11,11 @@ https://github.com/mlukicdesign/READMEGenerator
 <br>
 
 ### Walkthrough Video
-https://drive.google.com/file/d/1lq3_ouVuhYcV3VzAtsdUQMB9AJbrRPwe/view
+https://drive.google.com/file/d/1asb4Tr7Yy_hjkwtFb5yB3cHk3aE37_0R/view
 <br>
 <br>
 
 ### Sample README
-https://github.com/mlukicdesign/READMEGenerator/blob/main/Develop/README.md
+https://github.com/mlukicdesign/READMEGenerator/blob/main/Develop/ExampleREADME.md
 <br>
 <br>

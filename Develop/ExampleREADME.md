@@ -1,5 +1,5 @@
 
- # Example Project Title
+ # Example Title Here
 
  ## Table of Contents
 - [Description](#description)
@@ -12,40 +12,44 @@
  
  ## Project Link
 ---
-google.com
+linktoproject.com
 <br>
 <br>
  ## Description 
  ---
- This is an example project for Module 9
+ short description goes here
+
  ### Application License:
+ 
  [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  <br>
  <br>
+
  ## Installation
- ---
- step 1. step 2. step 3.
+ installation steps 1,2 and 3
  <br>
  <br>
+
  ## Usage
- ---
- Example instructions
+ instructions go here!
  <br>   
  <br>
+
  ## Credits
- ---
- collaborators here.
+ collaborators here!
  <br>
  <br>
+
  ## Testing
  ---
- run tests via testing zone
+ instructions go here!
  <br>
  <br>
+
  ## Contact
  ---
  Please feel free to reach out with any questions regarding this project via the details below:
  <br>
- undefined <br>
- githubprofile.com 
+ emailaddress@gmail.com <br>
+ linktoprofile 

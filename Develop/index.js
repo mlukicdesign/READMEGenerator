@@ -53,7 +53,7 @@ const promptUser = () => {
 },
 {
     type: 'input',
-    name: 'email',
+    name: 'contact',
     message: 'Please provide your email address',
 },
 {
@@ -86,31 +86,35 @@ ${projectLink}
  ## Description 
  ---
  ${description}
+
  ### Application License:
+ 
  ${license}
 
  <br>
  <br>
+
  ## Installation
- ---
  ${installation}
  <br>
  <br>
+
  ## Usage
- ---
  ${usage}
  <br>   
  <br>
+
  ## Credits
- ---
  ${credits}
  <br>
  <br>
+
  ## Testing
  ---
  ${testing}
  <br>
  <br>
+
  ## Contact
  ---
  Please feel free to reach out with any questions regarding this project via the details below:
@@ -127,7 +131,7 @@ const init = () => {
     promptUser()
       // Use writeFile method imported from fs.promises to use promises instead of
       // a callback function
-      .then((answers) => writeFile('README.md', writeToFile(answers)))
+      .then((answers) => writeFile('ExampleREADME.md', writeToFile(answers)))
       .then(() => console.log('Successfully wrote README'))
       .catch((err) => console.error(err));
   };
