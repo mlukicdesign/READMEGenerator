@@ -1,23 +1,30 @@
 
- # Example Title Here
+ # Employee Database Manger
 
  ## Table of Contents
 - [Description](#description)
+- [Project link](#project-link)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [Test Instructions](#testing)
 - [Contact](#contact)
 
  
  ## Project Link
 ---
-linktoproject.com
+
+View application walkthrough video via the link below:
+https://drive.google.com/file/d/1AIx1Wd_q9q4-HEYKqCF6Ek-Z6PT5Gs4h/view
+
+Application Screenshot:
+
+<img>
+
 <br>
 <br>
+
  ## Description 
  ---
- short description goes here
+ Track Employee information, roles and department database information from the command line with this simple to use application.
 
  ### Application License:
  
@@ -27,29 +34,26 @@ linktoproject.com
  <br>
 
  ## Installation
- installation steps 1,2 and 3
+ install dependences using npm install
  <br>
  <br>
 
  ## Usage
- instructions go here!
+ 1. Run npm install to install dependencies. 
+ <br>
+ 2. Run 'node server.js' from the command line to begin the application
+ <br>
+ 3. Follow the prompts with your arrow keys and use enter to select your commands.
+ <br>
+ 4. Effortlessly manage your employee database!
+ <br>
  <br>   
  <br>
 
- ## Credits
- collaborators here!
- <br>
- <br>
-
- ## Testing
- ---
- instructions go here!
- <br>
- <br>
 
  ## Contact
  ---
  Please feel free to reach out with any questions regarding this project via the details below:
  <br>
- emailaddress@gmail.com <br>
- linktoprofile 
+ mlukicdesign@gmail.com <br>
+ https://github.com/mlukicdesign 
